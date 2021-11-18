@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin:1rem 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.size{
+    display: flex;
+    margin: 5px 0;
+}
+
+.size-list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6px;
+}
+
+.size-list > * {
+    padding: 0 7px;
+}
+
+.price {
+    margin:5px 0;
+}
+
+.buy-button {
+    padding: 4px 10px;
+    background-color: green;
+    outline: none;
+}
+
+a  {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.quantity__button {
+    /* padding: 0.5rem; */
+    padding: 0.2rem 0.7rem;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0 1rem;
+}
+
+.qty-value{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+
